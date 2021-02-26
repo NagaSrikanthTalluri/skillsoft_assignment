@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    environment:
+      REPO_NAME: skillsoft_assignment
+      GIT_USERNAME: TejaNagaSrikanth
+      SLACK_URL: https://hooks.slack.com/services/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
+      INTERVAL: 300
